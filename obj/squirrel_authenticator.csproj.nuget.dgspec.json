@@ -1,75 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ferret/GIT/Squirrel-Authenticator/squirrel_authenticator.csproj": {}
+    "/home/ferret/GIT/Squirrel/Squirrel-Authenticator/squirrel_authenticator.csproj": {}
   },
   "projects": {
-    "/home/ferret/GIT/Scorpion-AES/Scorpion_Aes.csproj": {
+    "/home/ferret/GIT/Squirrel/Squirrel-Authenticator/squirrel_authenticator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ferret/GIT/Scorpion-AES/Scorpion_Aes.csproj",
-        "projectName": "Scorpion_Aes",
-        "projectPath": "/home/ferret/GIT/Scorpion-AES/Scorpion_Aes.csproj",
-        "packagesPath": "/home/ferret/.nuget/packages/",
-        "outputPath": "/home/ferret/GIT/Scorpion-AES/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/ferret/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "EasyEncrypt": {
-              "target": "Package",
-              "version": "[2.2.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/home/ferret/GIT/Squirrel-Authenticator/squirrel_authenticator.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/ferret/GIT/Squirrel-Authenticator/squirrel_authenticator.csproj",
+        "projectUniqueName": "/home/ferret/GIT/Squirrel/Squirrel-Authenticator/squirrel_authenticator.csproj",
         "projectName": "squirrel_authenticator",
-        "projectPath": "/home/ferret/GIT/Squirrel-Authenticator/squirrel_authenticator.csproj",
+        "projectPath": "/home/ferret/GIT/Squirrel/Squirrel-Authenticator/squirrel_authenticator.csproj",
         "packagesPath": "/home/ferret/.nuget/packages/",
-        "outputPath": "/home/ferret/GIT/Squirrel-Authenticator/obj/",
+        "outputPath": "/home/ferret/GIT/Squirrel/Squirrel-Authenticator/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ferret/.nuget/NuGet/NuGet.Config"
@@ -84,11 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/ferret/GIT/Scorpion-AES/Scorpion_Aes.csproj": {
-                "projectPath": "/home/ferret/GIT/Scorpion-AES/Scorpion_Aes.csproj"
-              },
-              "/home/ferret/GIT/Squirrel-Hasher/squirrel_hasher.csproj": {
-                "projectPath": "/home/ferret/GIT/Squirrel-Hasher/squirrel_hasher.csproj"
+              "/home/ferret/GIT/Squirrel/Squirrel-Hasher/squirrel_hasher.csproj": {
+                "projectPath": "/home/ferret/GIT/Squirrel/Squirrel-Hasher/squirrel_hasher.csproj"
               }
             }
           }
@@ -121,14 +60,14 @@
         }
       }
     },
-    "/home/ferret/GIT/Squirrel-Hasher/squirrel_hasher.csproj": {
+    "/home/ferret/GIT/Squirrel/Squirrel-Hasher/squirrel_hasher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ferret/GIT/Squirrel-Hasher/squirrel_hasher.csproj",
+        "projectUniqueName": "/home/ferret/GIT/Squirrel/Squirrel-Hasher/squirrel_hasher.csproj",
         "projectName": "squirrel_hasher",
-        "projectPath": "/home/ferret/GIT/Squirrel-Hasher/squirrel_hasher.csproj",
+        "projectPath": "/home/ferret/GIT/Squirrel/Squirrel-Hasher/squirrel_hasher.csproj",
         "packagesPath": "/home/ferret/.nuget/packages/",
-        "outputPath": "/home/ferret/GIT/Squirrel-Hasher/obj/",
+        "outputPath": "/home/ferret/GIT/Squirrel/Squirrel-Hasher/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ferret/.nuget/NuGet/NuGet.Config"

@@ -32,3 +32,8 @@
 /home/ferret/GIT/Squirrel-Authenticator/bin/Debug/net6.0/squirrel_hasher.pdb
 /home/ferret/GIT/Squirrel-Authenticator/bin/Debug/net6.0/Scorpion_Aes.pdb
 /home/ferret/GIT/Squirrel-Authenticator/obj/Debug/net6.0/squirrel_authenticator.csproj.CopyComplete
+/home/ferret/GIT/Squirrel/Squirrel-Authenticator/obj/Debug/net6.0/squirrel_authenticator.csproj.AssemblyReference.cache
+/home/ferret/GIT/Squirrel/Squirrel-Authenticator/obj/Debug/net6.0/squirrel_authenticator.GeneratedMSBuildEditorConfig.editorconfig
+/home/ferret/GIT/Squirrel/Squirrel-Authenticator/obj/Debug/net6.0/squirrel_authenticator.AssemblyInfoInputs.cache
+/home/ferret/GIT/Squirrel/Squirrel-Authenticator/obj/Debug/net6.0/squirrel_authenticator.AssemblyInfo.cs
+/home/ferret/GIT/Squirrel/Squirrel-Authenticator/obj/Debug/net6.0/squirrel_authenticator.csproj.CoreCompileInputs.cache
