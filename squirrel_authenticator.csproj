@@ -2,7 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Squirrel-Hasher\squirrel_hasher.csproj" />
-    <ProjectReference Include="..\..\..\Squirrel-AES\Squirrel-AES.csproj" />
+    <ProjectReference Include="..\Squirrel-AES\Squirrel-AES.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
