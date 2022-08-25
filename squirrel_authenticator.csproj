@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\scorpion_hasher\scorpion_hasher.csproj" />
+    <ProjectReference Include="..\Squirrel-Hasher\squirrel_hasher.csproj" />
     <ProjectReference Include="..\Scorpion-AES\Scorpion_Aes.csproj" />
   </ItemGroup>
 

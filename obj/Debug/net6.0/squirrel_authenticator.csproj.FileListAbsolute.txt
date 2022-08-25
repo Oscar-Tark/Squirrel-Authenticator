@@ -23,3 +23,12 @@
 /home/ferret/GIT/Squirrel-Authenticator/obj/Debug/net6.0/squirrel_authenticator.dll
 /home/ferret/GIT/Squirrel-Authenticator/obj/Debug/net6.0/ref/squirrel_authenticator.dll
 /home/ferret/GIT/Squirrel-Authenticator/obj/Debug/net6.0/squirrel_authenticator.pdb
+/home/ferret/GIT/Squirrel-Authenticator/bin/Debug/net6.0/squirrel_authenticator.deps.json
+/home/ferret/GIT/Squirrel-Authenticator/bin/Debug/net6.0/squirrel_authenticator.dll
+/home/ferret/GIT/Squirrel-Authenticator/bin/Debug/net6.0/ref/squirrel_authenticator.dll
+/home/ferret/GIT/Squirrel-Authenticator/bin/Debug/net6.0/squirrel_authenticator.pdb
+/home/ferret/GIT/Squirrel-Authenticator/bin/Debug/net6.0/Scorpion_Aes.dll
+/home/ferret/GIT/Squirrel-Authenticator/bin/Debug/net6.0/squirrel_hasher.dll
+/home/ferret/GIT/Squirrel-Authenticator/bin/Debug/net6.0/squirrel_hasher.pdb
+/home/ferret/GIT/Squirrel-Authenticator/bin/Debug/net6.0/Scorpion_Aes.pdb
+/home/ferret/GIT/Squirrel-Authenticator/obj/Debug/net6.0/squirrel_authenticator.csproj.CopyComplete

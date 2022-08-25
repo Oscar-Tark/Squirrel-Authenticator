@@ -9,7 +9,7 @@
       "squirrel_authenticator/1.0.0": {
         "dependencies": {
           "Scorpion_Aes": "1.0.0",
-          "scorpion_hasher": "1.0.0"
+          "squirrel_hasher": "1.0.0"
         },
         "runtime": {
           "squirrel_authenticator.dll": {}
@@ -58,13 +58,13 @@
           "Scorpion_Aes.dll": {}
         }
       },
-      "scorpion_hasher/1.0.0": {
+      "squirrel_hasher/1.0.0": {
         "dependencies": {
           "BCrypt.Net-Next": "4.0.2",
           "Capgemini.Cauldron.Cryptography": "3.2.3"
         },
         "runtime": {
-          "scorpion_hasher.dll": {}
+          "squirrel_hasher.dll": {}
         }
       }
     }
@@ -108,7 +108,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "scorpion_hasher/1.0.0": {
+    "squirrel_hasher/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
