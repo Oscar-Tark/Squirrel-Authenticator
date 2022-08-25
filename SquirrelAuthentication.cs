@@ -3,18 +3,16 @@ using System.Security;
 using System.Security.Principal;
 using Scorpion_Hasher_Library;
 using ScorpionAES;
+using SquirrelDefaultPaths;
 
 namespace Scorpion_Authenticator
 {
     public class Authenticator
     {
         string System_user;
-        string full_path;
-        string full_directory_path;
+        string full_path = SquirrelPaths.main_users_config_path;
+        string full_directory_path = SquirrelPaths.main_users_path;
         string[] Config_file_content;
-
-        const string scorpion_directory = "Scorpion/Users";
-        const string scorpion_config = "scorpion_users.conf";
 
         public Authenticator()
         {
@@ -86,8 +84,6 @@ namespace Scorpion_Authenticator
 
         private void create_path()
         {
-            full_path = System_user + "/" + scorpion_directory + "/" + scorpion_config;
-            full_directory_path = System_user + "/" + scorpion_directory;
             return;
         }
 
@@ -166,14 +162,15 @@ namespace Scorpion_Authenticator
     public class ExecutionPersmissions
     {
         string[] Config_file_content;
-        string System_user, full_path, full_directory_path;
+        string System_user, full_path, full_directory_path = SquirrelPaths.main_users_path;
         protected string user = null;
-        const string scorpion_directory = "Scorpion/Users";
-        const string scorpion_config = "_perm.conf";
+        static string scorpion_directory = SquirrelPaths.main_users_path; //"Scorpion/Users";
+        static string scorpion_config = SquirrelPaths.main_users_perm_config_path; //"_perm.conf";
 
-        public ExecutionPersmissions(ref string user_)
+        public ExecutionPersmissions(ref string user)
         {
-            user = user_;
+            this.user = user;
+            full_path = String.Format(SquirrelPaths.main_users_perm_config_path, user);
             check();
             return;
         }
@@ -183,23 +180,15 @@ namespace Scorpion_Authenticator
             Console.Write(File.ReadAllText(full_path));
         }
 
-        private void get_system_user()
+        private void setPermissionConfigPath()
         {
-            System_user = Environment.GetFolderPath(Environment.SpecialFolder.Personal) ;
-            return;
-        }
-
-        private void create_path()
-        {
-            full_path = System_user + "/" + scorpion_directory + "/" + user + scorpion_config;
-            full_directory_path = System_user + "/" + scorpion_directory;
+            System_user = String.Format(SquirrelPaths.main_users_perm_config_path, Environment.GetFolderPath(Environment.SpecialFolder.Personal));
             return;
         }
 
         public void check()
         {
-            get_system_user();
-            create_path();
+            setPermissionConfigPath();
             check_directory();
             check_configuration();
             read_config();
@@ -286,7 +275,7 @@ namespace Scorpion_Authenticator
 
         private bool authenticate(ref string function)
         {
-            create_path();
+            //create_path();
             read_config();
             if (Config_file_content.Length > 0)
             {

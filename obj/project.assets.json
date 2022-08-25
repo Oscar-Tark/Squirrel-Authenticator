@@ -32,6 +32,38 @@
           "lib/netstandard2.0/Cauldron.Randomizer.dll": {}
         }
       },
+      "EasyEncrypt/2.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/EasyEncrypt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/EasyEncrypt.dll": {}
+        }
+      },
+      "Scorpion-Default-Paths/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Scorpion-Default-Paths.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Scorpion-Default-Paths.dll": {}
+        }
+      },
+      "Squirrel-AES/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EasyEncrypt": "2.2.1"
+        },
+        "compile": {
+          "bin/placeholder/Squirrel-AES.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Squirrel-AES.dll": {}
+        }
+      },
       "squirrel_hasher/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -138,6 +170,28 @@
         "lib/uap10.0/Cauldron.Randomizer.pri"
       ]
     },
+    "EasyEncrypt/2.2.1": {
+      "sha512": "Dq7ofkt2CoKPnazhDWB7nEsLWdy0i3NsH9bykH85pp+U1k3j9cpqjIcBFgEDF1/qvO3HtTj+E9zMjhq+CPlNKg==",
+      "type": "package",
+      "path": "easyencrypt/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "easyencrypt.2.2.1.nupkg.sha512",
+        "easyencrypt.nuspec",
+        "lib/netstandard2.0/EasyEncrypt.dll"
+      ]
+    },
+    "Scorpion-Default-Paths/1.0.0": {
+      "type": "project",
+      "path": "../Squirrel-Default-Paths/Scorpion-Default-Paths.csproj",
+      "msbuildProject": "../Squirrel-Default-Paths/Scorpion-Default-Paths.csproj"
+    },
+    "Squirrel-AES/1.0.0": {
+      "type": "project",
+      "path": "../Squirrel-AES/Squirrel-AES.csproj",
+      "msbuildProject": "../Squirrel-AES/Squirrel-AES.csproj"
+    },
     "squirrel_hasher/1.0.0": {
       "type": "project",
       "path": "../Squirrel-Hasher/squirrel_hasher.csproj",
@@ -146,6 +200,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Scorpion-Default-Paths >= 1.0.0",
+      "Squirrel-AES >= 1.0.0",
       "squirrel_hasher >= 1.0.0"
     ]
   },
@@ -155,11 +211,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ferret/GIT/Squirrel/Squirrel-Authenticator/squirrel_authenticator.csproj",
+      "projectUniqueName": "/home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/squirrel_authenticator.csproj",
       "projectName": "squirrel_authenticator",
-      "projectPath": "/home/ferret/GIT/Squirrel/Squirrel-Authenticator/squirrel_authenticator.csproj",
+      "projectPath": "/home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/squirrel_authenticator.csproj",
       "packagesPath": "/home/ferret/.nuget/packages/",
-      "outputPath": "/home/ferret/GIT/Squirrel/Squirrel-Authenticator/obj/",
+      "outputPath": "/home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ferret/.nuget/NuGet/NuGet.Config"
@@ -174,8 +230,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/ferret/GIT/Squirrel/Squirrel-Hasher/squirrel_hasher.csproj": {
-              "projectPath": "/home/ferret/GIT/Squirrel/Squirrel-Hasher/squirrel_hasher.csproj"
+            "/home/ferret/GIT/Squirrel_Project/Squirrel-AES/Squirrel-AES.csproj": {
+              "projectPath": "/home/ferret/GIT/Squirrel_Project/Squirrel-AES/Squirrel-AES.csproj"
+            },
+            "/home/ferret/GIT/Squirrel_Project/Squirrel-Default-Paths/Scorpion-Default-Paths.csproj": {
+              "projectPath": "/home/ferret/GIT/Squirrel_Project/Squirrel-Default-Paths/Scorpion-Default-Paths.csproj"
+            },
+            "/home/ferret/GIT/Squirrel_Project/Squirrel-Hasher/squirrel_hasher.csproj": {
+              "projectPath": "/home/ferret/GIT/Squirrel_Project/Squirrel-Hasher/squirrel_hasher.csproj"
             }
           }
         }
