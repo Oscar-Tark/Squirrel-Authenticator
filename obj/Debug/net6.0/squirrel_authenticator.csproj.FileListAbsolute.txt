@@ -40,10 +40,12 @@
 /home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/bin/Debug/net6.0/squirrel_authenticator.deps.json
 /home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/bin/Debug/net6.0/squirrel_authenticator.dll
 /home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/bin/Debug/net6.0/squirrel_authenticator.pdb
+/home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/bin/Debug/net6.0/Scorpion-Default-Paths.dll
 /home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/bin/Debug/net6.0/Squirrel-AES.dll
 /home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/bin/Debug/net6.0/squirrel_hasher.dll
 /home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/bin/Debug/net6.0/squirrel_hasher.pdb
 /home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/bin/Debug/net6.0/Squirrel-AES.pdb
+/home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/bin/Debug/net6.0/Scorpion-Default-Paths.pdb
 /home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/obj/Debug/net6.0/squirrel_authenticator.csproj.AssemblyReference.cache
 /home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/obj/Debug/net6.0/squirrel_authenticator.GeneratedMSBuildEditorConfig.editorconfig
 /home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/obj/Debug/net6.0/squirrel_authenticator.AssemblyInfoInputs.cache
@@ -51,8 +53,6 @@
 /home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/obj/Debug/net6.0/squirrel_authenticator.csproj.CoreCompileInputs.cache
 /home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/obj/Debug/net6.0/squirrel_authenticator.csproj.CopyComplete
 /home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/obj/Debug/net6.0/squirrel_authenticator.dll
-/home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/obj/Debug/net6.0/ref/squirrel_authenticator.dll
-/home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/obj/Debug/net6.0/squirrel_authenticator.pdb
-/home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/bin/Debug/net6.0/Scorpion-Default-Paths.dll
-/home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/bin/Debug/net6.0/Scorpion-Default-Paths.pdb
 /home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/obj/Debug/net6.0/refint/squirrel_authenticator.dll
+/home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/obj/Debug/net6.0/squirrel_authenticator.pdb
+/home/ferret/GIT/Squirrel_Project/Squirrel-Authenticator/obj/Debug/net6.0/ref/squirrel_authenticator.dll

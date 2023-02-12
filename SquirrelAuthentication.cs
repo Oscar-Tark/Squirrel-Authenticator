@@ -78,7 +78,6 @@ namespace Scorpion_Authenticator
         private void get_system_user()
         {
             System_user = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
-            //System_user = WindowsIdentity.GetCurrent().Name;
             return;
         }
 
@@ -146,6 +145,8 @@ namespace Scorpion_Authenticator
 
         public SecureString read_password()
         {
+            //Do not append to string, only directl to Secure string or char/byte array.
+
             ConsoleKeyInfo cki;
             SecureString s_pwd = new SecureString();
             do
